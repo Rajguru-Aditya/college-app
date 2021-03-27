@@ -1,0 +1,38 @@
+.green {
+    position: absolute;
+    bottom: 110px;
+    left: 20px;
+    color: green;
+    font-size: 20px;
+}
+
+.red {
+    position: absolute;
+    bottom: 140px;
+    left: 20px;
+    color: red;
+    font-size: 20px;
+}
+
+#sub {
+    position: absolute;
+    bottom: 140px;
+    left: 50px;
+    color: aliceblue;
+}
+
+#hol {
+    position: absolute;
+    bottom: 110px;
+    left: 50px;
+    color: aliceblue;
+}
+
+img {
+    height: 370px;
+    width: 470px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
