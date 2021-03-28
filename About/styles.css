@@ -1,6 +1,10 @@
 .about {
     margin-left: 30%;
-    margin-top: 130px;
+    margin-top: 200px;
+}
+
+strong {
+    color: rgb(0, 247, 255);
 }
 
 .email {
