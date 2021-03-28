@@ -60,6 +60,13 @@ nav {
         transform: translate(-5%, -50%);
         z-index: 2;
     }
+    footer {
+        background-color: rgb(187, 187, 187);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
     .nav-links {
         position: fixed;
         background: #00ADB5;
@@ -88,7 +95,7 @@ nav {
     #landing {
         position: absolute;
         margin-top: 20px;
-        right: 220px;
+        right: 40%;
         color: #fff;
     }
     #disc {
@@ -122,17 +129,18 @@ nav {
     .circle-star {
         margin-top: 560px;
         display: flex;
+        position: sticky;
     }
     .fa-circle {
         font-size: 40px;
-        position: fixed;
+        position: relative;
         left: 20px;
         bottom: 20px;
         color: #0d7377;
     }
     .fa-star {
         font-size: 40px;
-        position: fixed;
+        position: absolute;
         right: 20px;
         bottom: 20px;
         color: #0d7377;
